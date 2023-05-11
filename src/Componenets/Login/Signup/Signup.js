@@ -16,7 +16,7 @@ const Signup = () => {
    
     <input {...register("firstName")}  type="text"  placeholder="First name" className="input input-bordered input-primary w-full max-w-xs my-4"  />
     <select {...register("category", { required: true })} className="select select-primary w-full max-w-xs my-4">
-  <option disabled selected value="">Department</option>
+  <option disabled selected value="">Select Department</option>
   <option value="A">Web Development</option>
   <option value="B">Content</option>
   <option value="C">SEO</option>
