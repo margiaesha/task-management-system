@@ -6,3 +6,30 @@
   top: 0;
   left: 0;
 }
+.logo{
+height: 100px;
+width: 300px;
+margin-left: 20rem;
+}
+.my-txt{
+
+  margin-bottom:50px;
+  color: #000000;
+}
+
+.hero-btn{
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 400px){
+  .logo{
+    margin-left: 5rem;
+    height: 100px;
+width: 200px;
+  }
+  .my-txt{
+font-size: 24px;
+  }
+  
+}
+
