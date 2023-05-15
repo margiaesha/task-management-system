@@ -20,7 +20,37 @@ margin-left: 20rem;
 .hero-btn{
   margin-right: 10px;
 }
+.auth-form{
+  box-shadow: 2px 2px 3px 3px #f1e8fd;
+}
 
+.text{
+  font-size: 18px;
+  font-weight: 700px;
+}
+.or-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.or-text:before,
+.or-text:after {
+  content: "";
+  width: 10%;
+  height: 2px;
+  background: #000;
+}
+
+.or-text:before{
+  margin: 0 20px 0 0;
+}
+
+.or-text:after{
+  margin: 0 0 0 20px;
+}
 @media only screen and (max-width: 400px){
   .logo{
     margin-left: 5rem;
