@@ -45,7 +45,7 @@ const Home = () => {
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: 2,
               },
               repulse: {
                 distance: 300,
@@ -82,7 +82,7 @@ const Home = () => {
                 enable: true,
                 area: 800,
               },
-              value: 40,
+              value: 20,
             },
             opacity: {
               value: 0.5,
